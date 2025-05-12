@@ -47,7 +47,6 @@ class LinkedList:
     while current is not None:
       print(current)
       current = current.next
-    pass
 
   def find_middle_node(self):
         fast = self.head
